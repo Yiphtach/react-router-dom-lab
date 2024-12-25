@@ -1,4 +1,4 @@
-import { useParams } from 'react-router-dom';
+import { useParams } from 'react-dom';
 
 function MailboxDetails({ mailboxes }) {
   const { mailboxId } = useParams(); // Extract mailboxId from the URL params
