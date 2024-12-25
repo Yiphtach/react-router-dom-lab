@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-dom'; // Correct import
 import NavBar from './components/NavBar';
 import MailboxForm from './components/MailboxForm';
 import MailboxList from './components/MailboxList';
@@ -17,7 +17,7 @@ const App = () => {
       boxSize: formData.boxSize, // Box size from the form
       boxholder: formData.boxholder, // Boxholder's name from the form
     };
-  
+
     // Update the state with the new mailbox object
     setMailboxes([...mailboxes, newMailbox]);
   };
