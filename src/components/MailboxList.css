@@ -1,0 +1,23 @@
+.mailbox-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .mail-box {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #f9f9f9;
+    cursor: pointer;
+  }
+  
+  .mail-box:hover {
+    background-color: #e0e0e0;
+    border-color: #333;
+  }
+  
